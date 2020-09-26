@@ -1,3 +1,4 @@
 # Metaheuristics
 Continuous and combinatorial optimization
-![Screenshot](/imgs/TSP_Djibouti.pngraw=true "Title")
+<img src="/imgs/TSP_Djibouti.png">
+<img src="imgs/TSP_Djibouti.png">
