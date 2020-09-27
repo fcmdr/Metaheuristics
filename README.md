@@ -26,3 +26,30 @@ The goal of this exercise is to find the minimum of 6 differents functions in 50
 The 2 first functions are unimodal (Shifted Sphere and Shifted Schwefel's problem).
 The main algorithm used to optimize the differents functions is the BFGS (Broyden–Fletcher–Goldfarb–Shanno) algorithm which is a quasi-Newton method applied to a general 
 function (that has not to be convex) that has continuous second derivatives. The jacobian and hessian of the function can be given to the algorithm if it is not the case it will approximate them. 
+All of the details are in the differents notebook.
+
+### Results of optimization for each function
+### Function 1 Shifted Sphere :
+![Screenshot](/imgs/Shifted_sphere_dim50.png)
+![Screenshot](/imgs/Shifted_sphere_dim500.png)
+
+### Function 2 Shifted Schwefel :
+![Screenshot](/imgs/Shifted_Schwefel_dim50.png)
+![Screenshot](/imgs/Shifted_Schwefel_dim500.png)
+
+
+### Function 3 Shifted Rosenbrock :
+![Screenshot](/imgs/Shifted_Rosenbrock_dim50.png)
+![Screenshot](/imgs/Shifted_Rosenbrock_dim500.png)
+
+### Function 4 Shifted Rastrigin :
+![Screenshot](/imgs/Shifted_Rastrigin_dim50.png)
+![Screenshot](/imgs/Shifted_Rastrigin_dim500.png)
+
+### Function 5 Shifted Griewank :
+![Screenshot](/imgs/Shifted_Griewank_dim50.png)
+![Screenshot](/imgs/Shifted_Griewank_dim500.png)
+
+### Function 6 Shifted Ackley :
+![Screenshot](/imgs/Shifted_Ackley_dim50.png)
+![Screenshot](/imgs/Shifted_Ackley_dim500.png)
