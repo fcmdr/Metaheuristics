@@ -24,3 +24,5 @@ The same algorithm is kept to solve this problem however the result is less opti
 
 The goal of this exercise is to find the minimum of 6 differents functions in 50 and 500 dimensions.
 The 2 first functions are unimodal (Shifted Sphere and Shifted Schwefel's problem).
+The main algorithm used to optimize the differents functions is the BFGS (Broyden–Fletcher–Goldfarb–Shanno) algorithm which is a quasi-Newton method applied to a general 
+function (that has not to be convex) that has continuous second derivatives. The jacobian and hessian of the function can be given to the algorithm if it is not the case it will approximate them. 
